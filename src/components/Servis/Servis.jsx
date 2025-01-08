@@ -1,11 +1,11 @@
 import scss from "./Servis.module.scss";
 import ServicCard from "./ServiceCard/ServiceCard";
-import Icon from "../../../public/icon.svg";
-import Icon_a from "../../../public/icon_a.svg";
-import Icon_b from "../../../public/icon_b.svg";
-import Icon_v from "../../../public/icon_v.svg";
-import Icon_c from "../../../public/icon_c.svg";
-import Icon_e from "../../../public/icon_e.svg";
+import Icon from "../../../public/Icon.svg";
+import Icon_a from "../../../public/Icon_a.svg";
+import Icon_b from "../../../public/Icon_b.svg";
+import Icon_v from "../../../public/Icon_v.svg";
+import Icon_c from "../../../public/Icon_c.svg";
+import Icon_e from "../../../public/Icon_e.svg";
 
 const Servic_ai = [
   {
