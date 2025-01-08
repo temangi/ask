@@ -1,8 +1,9 @@
+import Contacts from "../components/Contacts/Contacts"
+
 function HomePage(){
     return(
         <>
-        <h1>Home Page</h1>
-        <p>ADIL , AIDANA, ALINA</p>
+        <Contacts/>
         </>
     )
 }
