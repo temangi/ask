@@ -1,8 +1,11 @@
+import Servis from "../components/Servis/Servis";
+import ServicCard from "../components/Servis/ServiceCard/ServiceCard";
+
+
 function HomePage(){
     return(
         <>
-        <h1>Home Page</h1>
-        <p>ADIL , AIDANA, ALINA</p>
+        <Servis/>
         </>
     )
 }
