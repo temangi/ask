@@ -14,8 +14,8 @@ const menu = ["Home", "Pages", "Services", "Work", "Pages", "Contact"];
 
 const Header = () => {
 
-  const img = imgs.map((el) => (
-    <a>
+  const img = imgs.map((el, index) => (
+    <a key={index}>
       <img src={el} alt="" />
     </a>
   ));
