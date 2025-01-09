@@ -1,8 +1,10 @@
+
+import Sound from "../components/AboutUs/main/Sound"
+
 function HomePage(){
     return(
         <>
-        <h1>Home Page</h1>
-        <p>ADIL , AIDANA, ALINA</p>
+        <Sound/>
         </>
     )
 }
