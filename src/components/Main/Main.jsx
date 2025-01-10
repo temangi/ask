@@ -1,5 +1,5 @@
 import scss from "./Main.module.scss";
-// import zametki from "../../../public/zametki.svg"
+import zametki from "../../../public/zametki.svg";
 
 
 function Main ({photo}){
@@ -11,7 +11,7 @@ function Main ({photo}){
            advanced experience on growth and business scaling.</p>
            <div className={scss.cnopka}>
             <button>Our Services</button>
-            <button className={scss.cnopka2}> <img src={""} alt="" />  Book a Meeting</button>
+            <button className={scss.cnopka2}> <img src={zametki} alt="" />  Book a Meeting</button>
            </div>
         </div>
       </section>
