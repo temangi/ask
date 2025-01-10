@@ -70,7 +70,6 @@ const data = [
 export default function Client() {
   const li = imgs.map((el, index)=>(
     <li key={index} style={{backgroundImage:`url(${el.back})`}} >
-      <p className={scss.bgr}></p>
       <div>
       <button><img src={el.btn} alt="" /></button>
       <span>{el.title}</span>
@@ -80,7 +79,6 @@ export default function Client() {
       
     </li>
   ));
-  console.log({li});
 
   const dt = data.map((el, index)=> <li key={index}><p>{el.num}+</p><span>{el.str}</span></li>)
   return (
