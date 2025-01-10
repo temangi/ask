@@ -17,28 +17,29 @@ function Sound (){
         <section className={scss.aboutSection}>.
         <div className={scss.aboutText}>
           <p className={scss.aboutTitle}>ABOUT US</p>
-          <h4>About our Consulting <br /> Agency Team</h4>
+          <h4>About  our  Consulting <br /> Agency Team</h4>
           <p className={scss.aboutDescription}>
             <br />
             <strong>We create experiences and build products that <br /> make business grow.</strong>
             <br />
-            Get help from Alex Moore, a professional business coach <br /> with advanced 
-            experience in growth and business scaling.
+           <h5>Get help from Alex Moore, a professional business coach <br /> with advanced 
+           experience in growth and business scaling.</h5> 
           </p>
           <hr  />
           <div className={scss.stats}>
             <div className={scss.stat}>
-              <h3> <img src={star} alt="" />  400+</h3>
+              <h6> <img src={star} alt="" />  400+</h6>
               <p>Business Services</p>
             </div>
-            <br />
+            <hr />
             <div className={scss.start}>
-              <h4> <img src={smail} alt="" />  100+</h4> 
+              <h6> <img src={smail} alt="" />  100+</h6> 
               <p>Happy Customer</p>
             </div>
           </div>
           <br />
           <hr />
+      
         </div>
         <div className={scss.aboutImage}>
           <img src={talk} alt="" className={scss.teamImage}/>
