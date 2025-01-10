@@ -21,6 +21,10 @@
     display: flex;
     align-items: center;
     gap: 25px;
+
+    a{
+        cursor: pointer;
+    }
   }
 }
 
@@ -50,6 +54,7 @@
     gap: 30px;
 
     .linck {
+        cursor: pointer;
       display: flex;
       align-items: center;
       gap: 8.22px;
@@ -75,13 +80,14 @@
 
         p {
           background-color: #5ab612;
-          border: none;
+          border: 1px solid #5ab612;
         }
       }
     }
   }
 
   button {
+    cursor: pointer;
     padding: 8px 40px 8px 10px;
     display: flex;
     align-items: center;
