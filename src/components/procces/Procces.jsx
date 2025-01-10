@@ -1,5 +1,5 @@
 import scss from "./Procces.module.scss";
-import clock from  "../../../public/clock.svg"
+import arara from  "../../../public/arara.svg"
 import lesa from "../../../public/lesa.svg"
 import jer from "../../../public/jer.svg"
 import afafaf from "../../../public/afafaf.svg"
@@ -73,7 +73,7 @@ const Procces = () => {
             </p>
             <div className={scss.grid}>
               <div>
-                <img src={clock} alt="" />
+                <img src={arara} alt="" />
                 <h4>Consistency</h4>
                 <p>
                   Podcasting operational change <br /> management workflow.
