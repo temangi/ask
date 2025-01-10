@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
+
+.Client {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+
+  section {
+    padding-top: 202px;
+    padding-bottom: 307px;
+    background-image: url(../../../public/bgr.svg);
+    background-color: #181818;
+    .title {
+      padding: 0 15px 2px;
+      border-radius: 20px;
+      background-color: #4eaf4e;
+      color: #fff;
+      font-family: "Lato" serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 23.6px;
+      letter-spacing: 0.145em;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+
+    aside {
+      display: flex;
+      align-items: end;
+      gap: 250px;
+
+      h3 {
+        color: #fff;
+        font-family: "Cabin" serif;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 52.2px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+
+      button {
+        cursor: pointer;
+        border: none;
+        padding: 16px 32px;
+        background: #ffcc4a;
+        color: #181818;
+        border-radius: 42px;
+        font-family: "Lato", serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28.8px;
+        text-align: center;
+        text-decoration-skip-ink: none;
+      }
+    }
+  }
+
+  main {
+    position: absolute;
+    top: 384px;
+    margin-top: 45px;
+
+    .cart {
+      border-radius: 30px;
+      background-color: #fafafa;
+      padding: 25px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+
+      li {
+        box-sizing: border-box;
+        position: relative;
+        background-repeat: no-repeat;
+        padding: 0;
+        width: 366.48px;
+        height: 344.05px;
+        border-radius: 20px;
+        list-style: none;
+        transition: all 0.9s ease-in;
+
+        &:hover{
+        
+          div{
+            display: flex;
+            animation: 0.9s ease animeA;
+
+            @keyframes animeA {
+              0%{
+                transform: scale(0.8);
+              }
+              100%{
+                transform: scale(1);
+              }
+            }
+          }
+        }
+      
+        div {
+          position: absolute;
+         transition: all 0.9s ease;
+          padding: 30px;
+          border-radius: 20px;
+          display: none;
+          flex-direction: column;
+          padding: 23px 30px;
+
+          button {
+            margin-left: 250px;
+            padding: 0;
+            background: none;
+            border: none;
+          }
+          span {
+            margin-top: 179px;
+            color: #ffffff;
+            font-family: "Cabin", serif;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 29px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+          }
+          p {
+            color: #ffcc4a;
+            font-family: "Lato", serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 23.6px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+          }
+        }
+      }
+     
+    
+    }
+    ul {
+      margin-top: 54px;
+      display: flex;
+      align-items: center;
+      gap: 135px;
+      padding: 0 152px;
+      list-style: none;
+
+      li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        p {
+          color: #181818;
+          font-family: Cabin;
+          font-size: 50px;
+          font-weight: 700;
+          line-height: 58px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+        span {
+          font-family: Cabin;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 20.88px;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+      }
+    }
+  }
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
