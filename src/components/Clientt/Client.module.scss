@@ -83,6 +83,34 @@
         list-style: none;
         transition: all 0.9s ease-in;
 
+        &:hover{
+          .bgr{
+            display: block;
+            animation: 0.9s ease animeA;
+
+            @keyframes animeA {
+              0%{
+                transform: scale(0.8);
+              }
+              100%{
+                transform: scale(1);
+              }
+            }
+          }
+          div{
+            display: flex;
+            animation: 0.9s ease animeA;
+
+            @keyframes animeA {
+              0%{
+                transform: scale(0.8);
+              }
+              100%{
+                transform: scale(1);
+              }
+            }
+          }
+        }
         .bgr {
          transition: all 0.9s ease;
           display: none;
@@ -95,8 +123,9 @@
           
         }
         div {
+          position: absolute;
          transition: all 0.9s ease;
-          backdrop-filter: blur(8px);
+          backdrop-filter: blur(3px);
           background: linear-gradient(
             360deg,
             #181818 1.97%,
@@ -110,7 +139,7 @@
           padding: 23px 30px;
 
           button {
-            margin-left: 254px;
+            margin-left: 250px;
             padding: 0;
             background: none;
             border: none;
@@ -137,18 +166,8 @@
             text-decoration-skip-ink: none;
           }
         }
-        &:hover{
-         .bgr{
-            display: block;
-            
-
-         }
-         div{
-            display: flex;
-            position: absolute;
-         }
-        }
       }
+     
     
     }
     ul {
