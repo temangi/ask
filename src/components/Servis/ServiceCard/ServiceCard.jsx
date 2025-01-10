@@ -4,7 +4,7 @@ function ServicCard({img,p,span}) {
   return (
     <div className={scss.cub}>
       <img className={scss.svg} src={img} alt="icon" />
-      <p>{p}</p>
+      <div>{p}</div>
       <span>
        {span}
       </span>
