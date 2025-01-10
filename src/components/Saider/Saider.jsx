@@ -4,8 +4,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import scss from "./Saider.module.scss";
 import Men from "../../../public/sigma.svg"
-import Blec from "../../../public/icon_blec.svg";
-import Ico from "../../../public/icon.png"
+import Blec from "../../../public/Icon_blec.svg";
+import Ico from "../../../public/Icon.png"
 
 
 
