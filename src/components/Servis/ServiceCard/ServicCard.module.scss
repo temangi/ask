@@ -1,0 +1,36 @@
+.cub {
+
+  background-color: #ebebeb;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  transition: background-color 0.4s;
+  &:hover {
+    background-color: #181818;
+    color: white;
+    span {
+      color: gainsboro;
+    }
+  }
+
+  .svg {
+    display: flex;
+    width: 80px;
+    height: 80px;
+  }
+
+  p {
+
+    display: flex;
+    font-size: 20px;
+  }
+
+  span {
+    font-size: 14px;
+    display: flex;
+    color: #595566;
+  }
+}
