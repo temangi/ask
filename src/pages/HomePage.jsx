@@ -9,8 +9,9 @@ function HomePage(){
     return(
         <>
         <Header/>
-        <Client/>
         <Main photo={mainPhoto}/>
+        <Client/>
+       
         <Servis/>
       <Footer/>
         </>
