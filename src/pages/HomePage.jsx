@@ -1,4 +1,4 @@
-// import Saider from "../components/Saider/Saider";
+import Saider from "../components/Saider/Saider";
 import Contacts from "../components/Contacts/Contacts"
 import Procces from "../components/procces/Procces"
 import Client from "../components/Clientt/Client"
@@ -13,11 +13,10 @@ function HomePage(){
         <>
         <Header/>
         <Main photo={mainPhoto}/>
-        <Client/>
         <Procces/>
         <Client/>
         <Servis/>
-        {/* <Saider/> */}
+        <Saider/>
         <Contacts/>
         <Footer/>
         </>
