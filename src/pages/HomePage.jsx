@@ -1,17 +1,27 @@
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Heade";
+import Header from "../components/Header/Heade"
+import Main from "../components/Main/Main"
+import Footer from "../components/Footer/Footer"
+import Sound from "../components/AboutUs/main/Sound"
+import Servis from "../components/Servis/Servis"
+import Procces from "../components/procces/Procces"
+import Saider from "../components/Saider/Saider"
+import Contacts from "../components/Contacts/Contacts"
 import Blog from "../components/Blog/Blog";
 
-function HomePage() {
-  return (
-    <>
-      <h1>Home Page</h1>
-      <p>ADIL , AIDANA, ALINA</p>
-      <Header />
-      <Blog />
-      <Footer />
-    </>
-  );
+function HomePage(){
+    return(
+        <>
+        <Header/>
+        <Main/>
+        <Sound/> 
+        <Servis/>
+        <Procces/>
+        <Saider/>
+        <Blog />
+        <Contacts/>
+        <Footer/>
+        </>
+    )
 }
 
 export default HomePage;

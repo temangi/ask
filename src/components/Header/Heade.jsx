@@ -10,7 +10,32 @@ import sms from "../../../public/Logo.svg";
 import telefon from "../../../public/tele.svg";
 
 const imgs = [inst, fes, twi, int];
-const menu = ["Home", "Pages", "Services", "Work", "Pages", "Contact"];
+const menu = [
+  {
+    str: "Home",
+    link: "/"
+  },
+  {
+    str: "Pages",
+    link: "/pages"
+  },
+  {
+    str: "Services",
+    link: "/service"
+  },
+  {
+    str:  "Work",
+    link: "/work"
+  },
+  {
+    str: "Pages",
+    link: "/page"
+  },
+  {
+    str: "Contact",
+    link: "/contact"
+  }
+];
 
 const Header = () => {
 
@@ -20,13 +45,14 @@ const Header = () => {
     </a>
   ));
   const li = menu.map((el, index) => (
-    <p
+    <Link
+    to={el.link}
       key={index}
       className={scss.linck}
     >
       <p></p>
-      {el}
-    </p>
+      {el.str}
+    </Link>
   ));
   return (
     <section>
