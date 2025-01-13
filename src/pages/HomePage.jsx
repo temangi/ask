@@ -6,6 +6,7 @@ import Servis from "../components/Servis/Servis"
 import Procces from "../components/procces/Procces"
 import Saider from "../components/Saider/Saider"
 import Contacts from "../components/Contacts/Contacts"
+import Blog from "../components/Blog/Blog";
 
 function HomePage(){
     return(
@@ -16,10 +17,11 @@ function HomePage(){
         <Servis/>
         <Procces/>
         <Saider/>
+        <Blog />
         <Contacts/>
         <Footer/>
         </>
     )
 }
 
-export default HomePage
+export default HomePage;
