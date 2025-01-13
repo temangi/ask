@@ -1,0 +1,169 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+
+    .News {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+        align-items: center;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        button {
+            color: rgba(24, 24, 24, 1);
+            font-size: 20px;
+            font-weight: 700;
+            background: rgba(255, 204, 74, 1);
+            border-radius: 50px;
+            padding: 30px 50px;
+            border: none;
+            cursor: pointer;
+        }
+
+    }
+
+    main {
+        display: flex;
+
+        .Resources {
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            gap: 30px;
+
+            h1 {
+                font-size: 40px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 30px;
+            }
+
+            p {
+                font-size: 25px;
+                font-weight: 700;
+            }
+
+            span {
+                font-size: 15px;
+                color: rgba(89, 85, 102, 1);
+                padding: 20px 0;
+            }
+
+            .text {
+                display: flex;
+                background: rgba(255, 204, 74, 1);
+                padding: 30px;
+            }
+
+            .ReadMore {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 30px;
+                border-bottom: 1px solid rgba(193, 193, 193, 1);
+                border-top: 1px solid rgba(193, 193, 193, 1);
+                padding: 20px 0;
+
+                aside {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    p {
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: rgba(89, 85, 102, 1);
+
+                    }
+
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+
+                }
+
+                .more {
+                    text-decoration: none;
+                    background: black;
+                    padding: 15px 30px;
+                    border-radius: 50px;
+                    border: 1px solid black;
+                    color: white;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: black;
+                        background: white;
+                        border: 1px solid rgba(193, 193, 193, 1);
+                        transition: 1s;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media (max-width: 1060px){
+    .blog {
+        padding: 50px 100px; 
+
+        .News {
+            padding: 0 50px; 
+
+            h1 {
+                font-size: 25px;
+            }
+
+            button {
+                padding: 20px 40px; 
+                font-size: 18px;
+            }
+        }
+
+        main {
+        
+
+            .Resources {
+                padding: 50px; 
+                gap: 20px; 
+
+                h1 {
+                    font-size: 30px; 
+                }
+
+                p {
+                    font-size: 20px; 
+                }
+
+                .ReadMore {
+                  
+                    gap: 10px; 
+
+                    aside {
+                        flex-direction: column; 
+                        align-items: flex-start;
+                    }
+
+                    .more {
+                        width: 100%; 
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+    
