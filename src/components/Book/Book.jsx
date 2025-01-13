@@ -2,13 +2,15 @@ import scss from "./Book.module.scss";
 import phone from "../../../public/phone.svg";
 import setka from "../../../public/setka.svg";
 import photo from "../../../public/ask.jpg";
-import aboutus from "../../../public/aboutus.svg";
+import Title from "../Title/Title";
+
 
 function Book() {
   return (
     <article className={scss.main}> 
       <section className={scss.books}>
         <div className={scss.texts}>
+            <Title title={"BOOK NOW"} />
           <h1>
             Better Consult, <span>Better</span> <br />
             Results
@@ -21,7 +23,7 @@ function Book() {
           <button className={scss.click_phone}>
             {" "}
             <img src={phone} alt="" />
-            <span>+996 700 700</span>
+           +996 700 700
           </button>
         </div>
         <div className={scss.cartinci}>
