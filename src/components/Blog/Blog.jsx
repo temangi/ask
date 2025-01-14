@@ -48,7 +48,8 @@ function Blog() {
     <>
       <section className={scss.blog}>
         <header className={scss.News} >
-            <h1>Take a look at our latest <br /> articles & resources</h1>
+            <h1>Take a look at our latest <br />
+             articles & resources</h1>
             <button>More News</button>
         </header>
         <main>{card}</main>
