@@ -29,60 +29,58 @@ const Carta = [
     description: "The argument in favor of using filler text goes something.",
     priceImage: Lini,
     price: "$35",
+    titla: "MONTHLY",
   },
+  {
+    image: Cetka,
+    title: "Standard Plan",
+    description: "The argument in favor of using filler text goes something.",
+    priceImage: Lini,
+    price: "$56",
+    titla: "MONTHLY",
+  },
+  {
+    image: Cetka,
+    title: "Standard Plan",
+    description: "The argument in favor of using filler text goes something.",
+    priceImage: Lini,
+    price: "$75",
+    titla: "MONTHLY",
+  },
+
 ];
 
 function Pricing() {
   return (
-    <section className={scss.Pricing}>
-      <h1>Our Pricing Plan</h1>
-      <div className={scss.container}>
-
+    <div className={scss.Pricing}>
+  <h2>Our Pricing Plan</h2>
+  <div className={scss.colum}>
+    {Carta.map((item, index) => (
+      <div key={index} className={scss.container}>
         <div className={scss.container_a}>
-
-          {Carta.map((item, index) => (
-
-            <div key={index} className={scss.card}>
-
-              <img src={item.image} alt="Plan Icon" />
-
-              <h3>{item.title}</h3>
-
-              <p>{item.description}</p>
-
-              <img src={item.priceImage} alt="Pricing Icon" />
-
-              <h5>{item.price}</h5>
-
-            </div>
-
-          ))}
+        <h3>{item.title}</h3>
+        <img className={scss.Cetca} src={item.image} alt="" />
+          <p>{item.description}</p>
+          <div className={scss.Mon}>
+            <h1>{item.price}</h1>
+            <span>{item.titla}</span>
+          </div>
         </div>
-
         <div className={scss.container_b}>
-
-          {Foto.map((item, index) => (
-
-            <div key={index} className={scss.feature}>
-
-              <img src={item.image} alt="Feature Icon" />
-
-              <p>{item.p}</p>
-
+          {Foto.map((feature, featureIndex) => (
+            <div key={featureIndex} className={scss.feature}>
+              <img src={feature.image} alt="Feature Icon" />
+              <p>{feature.p}</p>
             </div>
-
           ))}
-
         </div>
-
         <button>Get This Plan</button>
-
       </div>
-      
-    </section>
+    ))}
+  </div>
+</div>
+
   );
 }
 
 export default Pricing;
-
-
