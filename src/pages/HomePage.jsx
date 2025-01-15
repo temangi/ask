@@ -7,6 +7,8 @@ import Procces from "../components/procces/Procces"
 import Saider from "../components/Saider/Saider"
 import Contacts from "../components/Contacts/Contacts"
 import Blog from "../components/Blog/Blog";
+import FAG from "../components/FAQ/FAG"
+import Pricing from "../components/Pricing/Pricing"
 import mainPhoto from "../components/Main/mains.svg";
 import Book from "../components/Book/Book";
 import ProcessServise from "../components/ProcessServise/ProcessServise"
@@ -22,6 +24,8 @@ function HomePage(){
         <ProcessServise/>
         <Saider/>
         <Blog />
+        <FAG/>
+        <Pricing/>
         <Contacts/>
         <Footer/>
         </>
