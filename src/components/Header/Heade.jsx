@@ -28,8 +28,8 @@ const menu = [
     link: "/work"
   },
   {
-    str: "Pages",
-    link: "/page"
+    str: "About us",
+    link: "/about"
   },
   {
     str: "Contact",
