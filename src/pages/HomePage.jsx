@@ -9,6 +9,7 @@ import Contacts from "../components/Contacts/Contacts"
 import Blog from "../components/Blog/Blog";
 import mainPhoto from "../components/Main/mains.svg";
 import Book from "../components/Book/Book";
+import ProcessServise from "../components/ProcessServise/ProcessServise"
 function HomePage(){
     return(
         <>
@@ -18,6 +19,7 @@ function HomePage(){
         <Servis/>
         <Book/>
         <Procces/>
+        <ProcessServise/>
         <Saider/>
         <Blog />
         <Contacts/>
