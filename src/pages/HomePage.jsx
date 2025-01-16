@@ -1,16 +1,30 @@
+import Header from "../components/Header/Heade"
+import Main from "../components/Main/Main"
+import Footer from "../components/Footer/Footer"
+import Sound from "../components/AboutUs/main/Sound"
+import Servis from "../components/Servis/Servis"
 import Procces from "../components/procces/Procces"
-import Features from "../components/Features"
+import Saider from "../components/Saider/Saider"
+import Contacts from "../components/Contacts/Contacts"
+import Blog from "../components/Blog/Blog";
+import CoreValues from "../components/Features/Features"
 
 
 function HomePage(){
     return(
         <>
-        <Features/>
-        <Procces/>
-        <h1>Home Page</h1>
-        <p>ADIL , AIDANA, ALINA</p>
+        {/* <Header/>
+        <Main/>
+        <Sound/> 
+        <Servis/> */}
+        <CoreValues/>
+        {/* <Procces/>
+        <Saider/>
+        <Blog />
+        <Contacts/> */}
+        {/* <Footer/> */}
         </>
     )
 }
 
-export default HomePage
+export default HomePage;
