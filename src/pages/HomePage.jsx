@@ -7,9 +7,12 @@ import Procces from "../components/procces/Procces"
 import Saider from "../components/Saider/Saider"
 import Contacts from "../components/Contacts/Contacts"
 import Blog from "../components/Blog/Blog";
-import Pricing from "../components/Pricing/Pricing"
+import CoreValues from "../components/Features/Features"
+import FAG from "../components/FAQ/FAG"
 import mainPhoto from "../components/Main/mains.svg";
 import Book from "../components/Book/Book";
+import Work from "../components/Work/Work"
+
 function HomePage(){
     return(
         <>
@@ -21,7 +24,9 @@ function HomePage(){
         <Procces/>
         <Saider/>
         <Blog />
-        <Pricing/>
+        <FAG/>
+        <Work/>
+       <CoreValues/>
         <Contacts/>
         <Footer/>
         </>

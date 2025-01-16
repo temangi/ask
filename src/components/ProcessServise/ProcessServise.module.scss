@@ -1,0 +1,58 @@
+.processservise{
+    display: flex;
+    padding: 30px 5%; 
+    gap: 50px; 
+    align-items: center;
+    .computer{
+        width: 50%;
+    }
+    .finance{
+        display: flex;
+        flex-direction: column;
+        gap: 30px; 
+        h1{
+            font-size: 30px;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            div{
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                aside{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1200px){
+    .processservise{
+        padding: 10px 3%;
+    }
+    .computers{
+        width: 25px;
+    }
+    .finance{
+        img{
+            width: 20px;
+        }
+        h1{
+            font-size: 5px ;
+        }
+        font-size: 10px;
+        main{
+            gap: 25px;
+        }
+        aside{
+            gap: 5px;
+        }
+        
+        
+    }
+}
