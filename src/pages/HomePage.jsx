@@ -8,21 +8,27 @@ import Saider from "../components/Saider/Saider"
 import Contacts from "../components/Contacts/Contacts"
 import Blog from "../components/Blog/Blog";
 import CoreValues from "../components/Features/Features"
-
+import FAG from "../components/FAQ/FAG"
+import mainPhoto from "../components/Main/mains.svg";
+import Book from "../components/Book/Book";
+import Work from "../components/Work/Work"
 
 function HomePage(){
     return(
         <>
-        {/* <Header/>
-        <Main/>
+        <Header/>
+        <Main photo={mainPhoto}/>
         <Sound/> 
-        <Servis/> */}
-        <CoreValues/>
-        {/* <Procces/>
+        <Servis/>
+        <Book/>
+        <Procces/>
         <Saider/>
         <Blog />
-        <Contacts/> */}
-        {/* <Footer/> */}
+        <FAG/>
+        <Work/>
+       <CoreValues/>
+        <Contacts/>
+        <Footer/>
         </>
     )
 }
