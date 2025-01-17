@@ -5,6 +5,9 @@ import Main from '../components/Main/Main'
 import Team from '../components/Team/Team'
 import Contacts from '../components/Contacts/Contacts'
 import Servis from '../components/Servis/Servis'
+import Pricing from '../components/Pricing/Pricing'
+import ProcessServise from "../components/ProcessServise/ProcessServise"
+
 
 function ServicePage() {
   return (
@@ -13,6 +16,8 @@ function ServicePage() {
       <Main/>
       <Team />
       <Servis/>
+      <ProcessServise/>
+      <Pricing/>
       <Contacts/>
       <Footer/>
     </section>
