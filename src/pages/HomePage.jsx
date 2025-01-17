@@ -20,12 +20,12 @@ function HomePage(){
         <Servis/>
         <Book/>
         <Education/>
-        {/* <Procces/>
+        <Procces/>
         <ProcessServise/>
         <Saider/>
         <Blog />
         <Contacts/>
-        <Footer/> */}
+        <Footer/>
         </>
     )
 }
