@@ -11,6 +11,8 @@ import CoreValues from "../components/Features/Features"
 import FAG from "../components/FAQ/FAG"
 import mainPhoto from "../components/Main/mains.svg";
 import Book from "../components/Book/Book";
+import ProcessServise from "../components/ProcessServise/ProcessServise"
+import Education from "../components/Education/Education"
 import Work from "../components/Work/Work"
 
 function HomePage(){
@@ -21,6 +23,7 @@ function HomePage(){
         <Sound/> 
         <Servis/>
         <Book/>
+        <Education/>
         <Procces/>
         <Saider/>
         <Blog />
