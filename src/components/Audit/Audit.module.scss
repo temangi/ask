@@ -1,0 +1,22 @@
+.audit{
+    display: flex;
+    justify-content: center;
+    main{
+        display: flex;
+        justify-content: center;
+        padding: 15px 30px;
+        border-radius: 60px ;
+        background: #181818;
+        gap: 50px;
+        color: white;
+        p{
+            transition: .5s;
+            padding: 5px 10px;
+            cursor: pointer;
+            &:hover{
+                color: #FFCC4A;
+                border-bottom: 1px solid #FFCC4A;
+            }
+        }
+    }
+}

@@ -13,6 +13,7 @@ import mainPhoto from "../components/Main/mains.svg";
 import Book from "../components/Book/Book";
 import ProcessServise from "../components/ProcessServise/ProcessServise"
 import Education from "../components/Education/Education"
+import Audit from "../components/Audit/Audit"
 import Work from "../components/Work/Work"
 
 function HomePage(){
@@ -24,12 +25,13 @@ function HomePage(){
         <Servis/>
         <Book/>
         <Education/>
+        <Audit/>
         <Procces/>
         <Saider/>
         <Blog />
         <FAG/>
         <Work/>
-       <CoreValues/>
+        <CoreValues/>
         <Contacts/>
         <Footer/>
         </>
