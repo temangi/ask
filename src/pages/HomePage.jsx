@@ -10,6 +10,7 @@ import Blog from "../components/Blog/Blog";
 import mainPhoto from "../components/Main/mains.svg";
 import Book from "../components/Book/Book";
 import ProcessServise from "../components/ProcessServise/ProcessServise"
+import Education from "../components/Education/Education"
 function HomePage(){
     return(
         <>
@@ -18,12 +19,13 @@ function HomePage(){
         <Sound/> 
         <Servis/>
         <Book/>
-        <Procces/>
+        <Education/>
+        {/* <Procces/>
         <ProcessServise/>
         <Saider/>
         <Blog />
         <Contacts/>
-        <Footer/>
+        <Footer/> */}
         </>
     )
 }
