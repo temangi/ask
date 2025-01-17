@@ -66,7 +66,7 @@ function Contacts() {
   return (
     <section className={scss.contacts}>
       <article>
-        <Title title={"procces"} />
+        <Title title={"procces"} color={"black"} background={"yellow"} />
         <h1>Contact Us. It’s Easy.</h1>
         <span>
           Leverage agile frameworks to provide a robust synopsis for high level

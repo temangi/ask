@@ -9,7 +9,6 @@ function TeamPage() {
     <section>
       <Header/>
       <Main/>
-      
       <Footer/>
     </section>
   )
